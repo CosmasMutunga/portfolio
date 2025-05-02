@@ -1,0 +1,56 @@
+/*=========LAYOUT SECTION============*/
+body {
+  margin: 0;
+  font-family: times new romans;
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: blue;
+  color: white;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  border-radius: 5px;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 15px 0;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  background-color: #333355;
+  padding-left: 10px;
+}
+
+.content {
+  margin-left: 220px;
+  padding: 20px;
+  flex: 1;
+}
+.highlight {
+  color: #ff6347;          /* Tomato color */
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 1px 1px 2px #000;
+  transition: color 0.3s ease;
+}
+
+.highlight:hover {
+  color: #00bfff;          /* Deep Sky Blue on hover */
+}
+
+
+ 
